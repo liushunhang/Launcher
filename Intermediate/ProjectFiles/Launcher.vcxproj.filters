@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\Launcher.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{DC6D8B48-79B9-45B1-95D4-16095AD17F28}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Launcher.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\LauncherEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{57B1D631-992D-48B3-AD2F-75ED97079258}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\Launcher">
+			<UniqueIdentifier>{C2090CB9-180F-42BB-BE56-C65854E28DD0}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Launcher\Launcher.Build.cs">
+			<Filter>Source\Launcher</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\Launcher\Launcher.cpp">
+			<Filter>Source\Launcher</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Launcher\Launcher.h">
+			<Filter>Source\Launcher</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Launcher\LauncherCharacter.cpp">
+			<Filter>Source\Launcher</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Launcher\LauncherCharacter.h">
+			<Filter>Source\Launcher</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Launcher\LauncherGameMode.cpp">
+			<Filter>Source\Launcher</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Launcher\LauncherGameMode.h">
+			<Filter>Source\Launcher</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Launcher\LauncherHUD.cpp">
+			<Filter>Source\Launcher</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Launcher\LauncherHUD.h">
+			<Filter>Source\Launcher</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Launcher\LauncherProjectile.cpp">
+			<Filter>Source\Launcher</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Launcher\LauncherProjectile.h">
+			<Filter>Source\Launcher</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
